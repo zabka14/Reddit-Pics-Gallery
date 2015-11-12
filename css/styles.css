@@ -1,0 +1,111 @@
+html,
+body {
+	height:100%;
+}
+
+header {
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+h1{
+  font-family: 'Indie Flower', cursive;
+}
+
+#high_header{
+  background-color: #cee3f8;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 0.5%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+#low_header{
+  text-align: center;
+  background-color: lightgrey;
+}
+
+
+/*Content*/
+
+
+#content{
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 200%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+
+.img_contenerS{
+		height: 150px;
+		width: 150px;
+    overflow: hidden;
+		display: inline-block;
+		margin-left: 2px;
+		margin-right: 2px;
+}
+
+.img_contenerM{
+		height: 250px;
+		width: 250px;
+    overflow: hidden;
+		display: inline-block;
+		margin-left: 2px;
+		margin-right: 2px;
+}
+
+.img_contenerL{
+		height: 500px;
+		width: 500px;
+    overflow: hidden;
+		display: inline-block;
+		margin-left: 2px;
+		margin-right: 2px;
+}
+
+.img_contenerVL{
+		height: 750px;
+		width: 750px;
+    overflow: hidden;
+		display: inline-block;
+		margin-left: 2px;
+		margin-right: 2px;
+}
+
+.img_title{
+	font-size: 18px;
+  text-align: center;
+  position: absolute;
+	overflow: hidden;
+  z-index:-1;
+  color: black;
+	width: inherit;
+	height: inherit;
+}
+
+.img_title:hover{
+	z-index: 2;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+img:hover{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);  /* For Webkit browsers */
+  filter: gray;  /* For IE 6 - 9 */
+  -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
+	opacity: 0.4;
+	-ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=25)"; /* Hack IE8 */
+  filter: alpha(opacity = 25); /* Hack IE 5-7 */
+  -webkit-transition: opacity 0.5s ease-in-out;/* transition pour Chrome et Safari */
+  -moz-transition: opacity 0.5s ease-in-out;/* transition pour Firefox */
+  -o-transition: opacity 0.5s ease-in-out;/* transition pour Opéra */
+  transition: opacity 0.5s ease-in-out; /* on écrit cette ligne à la fin de façon à ce que ce soit elle qui soit prise en compte lorsque l'attribut transition sera pris en compte par tous les navigateurs */
+}

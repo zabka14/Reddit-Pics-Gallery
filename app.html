@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Reddit /r/pics Gallery</title>
+  <meta name="description" content="Image collection using reddit API">
+  <meta name="author" content="Benjamin Vianey">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/text.css" />
+  <link rel="stylesheet" href="css/960.css" /> -->
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+      <div id="high_header">
+        <h1>Reddit Gallery</h1>
+      </div>
+
+      <div id="low_header">
+        <div>
+          <FORM> Ordre de tri :
+            <SELECT id="triSelector" size="1">
+              <OPTION>Hot
+              <OPTION selected="selected">New
+              <OPTION>Rising
+              <OPTION>Controversial
+              <OPTION>Top
+              <OPTION>Gilded
+            </SELECT>
+
+
+            <SELECT id="sizeSelector" name="taille" size="1">
+              <OPTION>Small
+              <OPTION selected="selected">Medium
+              <OPTION>Large
+              <OPTION>Very Large
+            </SELECT> : Taille de l'image
+          </FORM>
+
+  </div>
+
+    </header>
+
+    <div id="content">
+
+
+    </div>
+
+
+
+<script src="js/MyImage.js"></script>
+</body>
+</html>
