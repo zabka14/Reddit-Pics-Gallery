@@ -1,16 +1,12 @@
 $(document).ready(function ()
 {
-
   prepPage();
-
     $('#sizeSelector').on('change', function() {
         prepPage();
     });
-
     $('#triSelector').on('change', function() {
         prepPage();
     });
-
     function sizeHandler(selectedSize){
       switch (selectedSize) {
         case "Small":

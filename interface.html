@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -9,93 +10,128 @@
   <meta name="author" content="Benjamin Vianey">
 
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/text.css" />
-  <link rel="stylesheet" href="css/960.css" />
   <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 </head>
 
 <body>
 
-    <header>
-      <div id="high_header">
-        <h1>Reddit Gallery</h1>
+  <header>
+    <div id="high_header">
+      <h1>Reddit Gallery</h1>
+    </div>
+
+    <div id="low_header">
+      <div>
+        <FORM> Ordre de tri :
+          <SELECT id="triSelector" size="1">
+            <OPTION>Hot
+              <OPTION selected="selected">New
+                <OPTION>Rising
+                  <OPTION>Controversial
+                    <OPTION>Top
+                      <OPTION>Gilded
+          </SELECT>
+
+
+          <SELECT id="sizeSelector" name="taille" size="1">
+            <OPTION>Small
+              <OPTION selected="selected">Medium
+                <OPTION>Large
+                  <OPTION>Very Large
+          </SELECT> : Taille de l'image
+        </FORM>
+
       </div>
 
-      <div id="low_header">
-        <div>
-          <input type="checkbox" name="opt1" value="hot" />Hot
-          <input type="checkbox" name="opt2" value="new" />new
-          <input type="checkbox" name="opt3" value="rising" />Rising
-          <input type="checkbox" name="opt4" value="cont" />Controversial
-          <input type="checkbox" name="opt5" value="top" />Top
-          <input type="checkbox" name="opt6" value="glid" />Glided
-          <input type="checkbox" name="opt7" value="prom" />Promoted
-          <FORM> Taille de l'image :
-            <SELECT name="taille" size="1">
-              <OPTION>Small
-              <OPTION>Medium
-              <OPTION>Large
-              <OPTION>Very Large
-            </SELECT>
-          </FORM>
+  </header>
+
+  <div id="content">
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test2.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test3.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test4.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test5.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test2.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test3.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test4.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test5.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test2.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test3.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test4.jpg' alt='Titre alternatif'>
+    </div>
+
+    <div class='img_contenerM'>
+      <div class="img_title">Exemple d'image</div>
+      <img src='img_test/test5.jpg' alt='Titre alternatif'>
+    </div>
+
+
+
 
   </div>
 
 
 
-
-    </header>
-
-    <div id="content">
-      <div class="container_12">
-
-        <div class="grid_3">
-          <div class="img_contenerMM">
-            <div class="img_title">TITRE</div>
-            <img src="img_test/test.jpg" alt="test">
-          </div>
-        </div>
-
-        <div class="grid_3">
-          <div class="img_contenerMM">
-            <div class="img_title">TITRE</div>
-            <img src="img_test/test.jpg" alt="test">
-          </div>
-        </div>
-
-        <div class="grid_3">
-          <div class="img_contenerMM">
-            <div class="img_title">TITRE</div>
-            <img src="img_test/test.jpg" alt="test">
-          </div>
-        </div>
-
-        <div class="grid_3">
-          <div class="img_contenerMM">
-            <div class="img_title">TITRE</div>
-            <img src="img_test/test.jpg" alt="test">
-          </div>
-        </div>
-
-
-        <div class="grid_3">
-          <div class="img_contenerMM">
-            <div class="img_title">TITRE</div>
-            <img src="img_test/test.jpg" alt="test">
-          </div>
-        </div>
-
-
-        <div class="grid_3">
-          <div class="img_contenerMM">
-            <div class="img_title">TITRE</div>
-            <img src="img_test/test.jpg" alt="test">
-          </div>
-        </div>
-
-
-      </div>
-    </div>
+  <!-- <script src="js/MyImage.js"></script> -->
 </body>
+
 </html>
